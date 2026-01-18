@@ -1,0 +1,102 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Manoj J S</title>
+
+    <!-- Common styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Projects-specific styles -->
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<section class="projects">
+    <h1 class="page-title">Projects</h1>
+
+    <!-- Project 1 -->
+    <div class="project-card">
+        <h2>🚀 AI Travel Itinerary Generator</h2>
+
+        <img src="./assets/images/project1.png" 
+             alt="AI Travel Itinerary Generator Screenshot"
+             class="project-image">
+
+        <p class="project-overview">
+            <strong>Overview:</strong><br>
+            AI-powered full-stack web application that generates personalized,
+            structured travel itineraries based on user preferences such as
+            destination, budget, interests, duration, and travel style.
+        </p>
+
+        <p>
+            <strong>Problem:</strong><br>
+            Manual travel planning is time-consuming and often results in
+            generic or impractical itineraries.
+        </p>
+
+        <p>
+            <strong>Solution:</strong><br>
+            Automated itinerary generation using structured prompt engineering,
+            RESTful APIs, and real-time LLM responses.
+        </p>
+
+        <ul>
+            <li>User-driven, preference-based itinerary generation</li>
+            <li>Day-wise structured output</li>
+            <li>Deterministic LLM responses using prompt templates</li>
+            <li>Server-side rendered dynamic UI</li>
+            <li>Scalable, modular backend architecture</li>
+        </ul>
+
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, FastAPI, Jinja2, LLMs (OpenAI / Ollama)</p>
+
+        <video controls class="project-video">
+            <source src="./assets/Video/project1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <h2>🎥 Video Transcript Summarizer</h2>
+
+        <img src="./assets/images/project2.png" 
+             alt="Video Transcript Summarizer Screenshot"
+             class="project-image">
+
+        <p class="project-overview">
+            <strong>Overview:</strong><br>
+            End-to-end AI application that extracts YouTube transcripts and
+            generates concise summaries using a fault-tolerant processing pipeline.
+        </p>
+
+        <p>
+            <strong>Problem:</strong><br>
+            Many videos lack accurate transcripts, making content summarization
+            slow and unreliable.
+        </p>
+
+        <p>
+            <strong>Solution:</strong><br>
+            A multi-stage pipeline using fallback strategies and low-latency LLMs
+            to ensure reliable transcript extraction and summarization.
+        </p>
+
+        <ul>
+            <li>Automatic transcript extraction</li>
+            <li>Audio-based fallback using yt-dlp</li>
+            <li>Fast speech-to-text using Whisper</li>
+            <li>Low-latency summarization using LLaMA-3</li>
+            <li>Robust error handling across stages</li>
+        </ul>
+
+        <p>
+            <strong>Tech Stack:</strong> Python, Streamlit, yt-dlp,
+            youtube-transcript-api, Groq Whisper, Groq LLaMA-3
+        </p>
+
+        <video controls class="project-video">
+            <source src="./assets/Video/Project2_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>

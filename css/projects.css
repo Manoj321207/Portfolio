@@ -1,0 +1,173 @@
+/* =========================
+   Projects Page Base
+========================= */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================
+   Page Title
+========================= */
+
+.page-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 40px 0 30px;
+    color: #222;
+}
+
+/* =========================
+   Projects Container
+========================= */
+
+.projects {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+/* =========================
+   Project Card
+========================= */
+
+.project-card {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 45px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================
+   Project Headings
+========================= */
+
+.project-card h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+/* =========================
+   Project Text
+========================= */
+
+.project-card p {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.project-overview {
+    background: #f1f6ff;
+    padding: 12px 15px;
+    border-radius: 8px;
+}
+
+/* =========================
+   Project Lists
+========================= */
+
+.project-card ul {
+    margin: 15px 0 15px 20px;
+}
+
+.project-card ul li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+/* =========================
+   Project Image
+========================= */
+
+.project-image {
+    width: 100%;
+    max-height: 720px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 18px 0;
+    border: 1px solid #ddd;
+}
+
+/* =========================
+   Project Video
+========================= */
+
+.project-video {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* =========================
+   Project Buttons (Optional)
+========================= */
+
+.project-links {
+    margin-top: 15px;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 8px 18px;
+    margin-right: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.project-links a:hover {
+    background: #0056b3;
+}
+
+/* =========================
+   Back Button
+========================= */
+
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 24px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 1.8rem;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .project-video {
+        max-width: 100%;
+    }
+}

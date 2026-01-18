@@ -1,0 +1,276 @@
+/* =====================
+   Global Styles
+===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* =====================
+   Layout Utilities
+===================== */
+
+section {
+    background: #ffffff;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 12px;
+    max-width: 1000px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+}
+
+/* =====================
+   Header / Intro
+===================== */
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.header p {
+    color: #555;
+    margin-top: 5px;
+}
+
+/* =====================
+   Summary
+===================== */
+
+.summary p {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* =====================
+   Education
+===================== */
+
+.education .edu-card {
+    background: #f9fbff;
+    padding: 18px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #007bff;
+}
+
+.edu-card h3 {
+    color: #007bff;
+    margin-bottom: 8px;
+}
+
+.edu-card p {
+    font-size: 0.95rem;
+    margin: 3px 0;
+}
+
+/* =====================
+   Skills
+===================== */
+
+.skills-category {
+    margin-bottom: 22px;
+}
+
+.skills-category h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.skill-list span {
+    display: inline-block;
+    background: #eaf2ff;
+    color: #007bff;
+    padding: 6px 14px;
+    margin: 6px 6px 0 0;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* =====================
+   Achievements
+===================== */
+
+.achievements ul {
+    margin-left: 20px;
+}
+
+.achievements li {
+    margin-bottom: 8px;
+}
+
+/* =====================
+   Resume Download
+===================== */
+
+.resume {
+    text-align: center;
+}
+
+.resume p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.resume-buttons {
+    margin-top: 10px;
+}
+
+/* =====================
+   Buttons
+===================== */
+
+.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #007bff;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn-outline:hover {
+    background: #007bff;
+    color: #ffffff;
+}
+
+/* =====================
+   Floating Resume Button
+===================== */
+
+.resume-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+/* =====================
+   Projects Page
+===================== */
+
+.page-title {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2rem;
+}
+
+.projects {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.project-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.project-card h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.project-card ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.project-video {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* =====================
+   Contact
+===================== */
+
+.contact p {
+    margin-bottom: 6px;
+}
+
+/* =====================
+   Responsive Design
+===================== */
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.6rem;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px 10px;
+    }
+
+    .project-video {
+        max-width: 100%;
+    }
+}
